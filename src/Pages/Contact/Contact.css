@@ -1,0 +1,67 @@
+.contact-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  width: 100%;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.contact-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.socialmedia-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.socialmedia-container h3 {
+  font-size: 1.2rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Increased gap between icon and text */
+  text-align: center;
+}
+
+.socialmedia-container a {
+  color: #0077b5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.socialmedia-container a:hover {
+  color: #005582;
+  text-decoration: underline;
+}
+
+.socialmedia-container svg {
+  font-size: 1.5rem;
+  color: #0077b5;
+  margin-right: 10px; /* Adding some space to the right of the icons */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 25px;
+    margin: 25px;
+  }
+
+  .contact-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .socialmedia-container h3 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,66 @@
+.about-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Set the same max-width */
+  width: 100%;
+  margin: 50px auto; /* Center the container */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Heading styles */
+.about-container h2 {
+  font-size: 2.5rem;
+  color: #2d3748; /* Darker text */
+  font-weight: 600; /* Bold weight for title */
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a5568; /* Subtle grey color */
+  margin-bottom: 30px;
+  text-align: justify; /* Align text neatly */
+}
+
+/* Image styles */
+.about-container img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%; /* Circle shape */
+  border: 4px solid #edf2f7; /* Light border */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for image */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  margin-top: 30px;
+}
+
+/* Hover effect for image */
+.about-container img:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Larger shadow */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+  }
+
+  .about-container h2 {
+    font-size: 2rem;
+  }
+
+  .about-container p {
+    font-size: 1rem;
+  }
+
+  .about-container img {
+    width: 150px;
+    height: 150px;
+  }
+}

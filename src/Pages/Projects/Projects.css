@@ -1,0 +1,60 @@
+.projects-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Set the same max-width */
+  width: 100%;
+  margin: 50px auto; /* Center the container */
+  box-sizing: border-box;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.project h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.project ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.project ul li {
+  background: #007bff;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.project img {
+  width: 100%; /* Ensures the image takes the full width of its container */
+  max-width: 800px; /* Increase max size */
+  height: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,63 @@
+/* Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+/* Header styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    #4f8ef7,
+    #667eea,
+    #7654c8
+  ); /* Gradient background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  padding: 16px 32px; /* Padding inside header */
+  z-index: 50; /* Make sure the header is on top */
+}
+
+/* Container for the header content */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container */
+}
+
+/* Title styling */
+.header-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation list */
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+/* Individual link styling */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  color: #f1c40f; /* Yellow hover effect */
+}
